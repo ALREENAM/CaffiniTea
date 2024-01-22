@@ -1,0 +1,345 @@
+
+
+
+body
+{
+ background: url(bg2.png);
+ background-color: #906868;
+ overflow-x: hidden;
+ background-repeat: no-repeat;
+}
+div.navbar {
+    width:100%;
+    height:11%;
+    background-color: #29201bdf;
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 0;
+    border-bottom: solid 5px #EFD3B9;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2d252100;
+    position: absolute;
+    float: none;
+    left: 260px;
+    top: 13px;
+    z-index: 1;
+    
+    display: flex;
+  }
+  
+  li {
+    float: none;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    opacity: 90%;
+    margin: 0px 50px 0px 50px;
+  }
+  
+  li a:hover {
+    opacity: 50%;
+    background-color: #EFD3B9;
+    color:#1B1212;
+    border-radius: 20%;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+  }
+
+  li.Menu:hover .dropdown-content {
+    display: block;    
+  }
+
+  .dropdown-content {
+    display: none;
+    background-color: #443b37;
+    width: 150px;
+    top: 25px;
+    padding-top: 0px;
+    margin-left: 20px;
+    box-shadow: 5px 5px 5px #1B1212;
+    
+  }
+
+  .dropdown-content a {
+    font-size: 15px;
+    width: 90px;
+    margin-left: 30px;
+  }
+
+
+  div.bottom
+    {
+    width: 1535px;
+    height: 240px;
+    background-color: #6b433f;
+    border-color: beige;
+    border-style: solid;
+    border-width: 2px;
+    position: absolute;
+    top: 743px;
+    right: -2px;
+    z-index: 9;
+    }
+    div.bg
+    {
+    width: 1536px;
+    height: 200px;
+    background-color: #50473dd1;
+    border-color: beige;
+    border-style: solid;
+    border-width: 2px;
+    position: absolute;
+    top: 765px;
+    right: 0px;
+    z-index: 9;
+    }
+    h1.h1 
+    {
+    position: absolute;
+    top: 10px;
+    left: 530px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: azure;
+    }
+    h1.h2 
+    {
+    position: absolute;
+    top: 10px;
+    left: 860px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: azure;
+    }
+    h1.h3 
+    {
+    position: absolute;
+    top: 10px;
+    left: 1260px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: azure;
+    }
+    p.font
+    {
+    position: absolute;
+    top: 70px;
+    left: 530px;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: azure;
+    }
+    p.font2
+    {
+    position: absolute;
+    top: 70px;
+    left: 860px;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: azure;
+    }
+    p.font3
+    {
+    position: absolute;
+    top: 70px;
+    left: 1260px;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: azure;
+    }
+    img.kopes
+    {
+      width: 250px;
+      height: 245px;
+    position: absolute;
+    top: -30px;
+    left: 90px;
+    z-index: 100;
+    }
+    img.tea
+    {
+     width: 550px;
+     position: absolute;
+     top: 85px;
+     left: 0px;
+    }
+    img.okinawa
+    {
+     width: 300px;
+     position: absolute;
+     top: 220px;
+     left: 550px;
+    }
+    img.winter
+    {
+     width: 300px;
+     position: absolute;
+     top: 200px;
+     left: 860px;
+    }
+    img.matcha
+    {
+     width: 300px;
+     position: absolute;
+     top: 210px;
+     left: 1200px;
+    }
+
+    h3.place
+    {
+     color: white;
+     position: absolute;
+     width: 300px;
+     top: 500px;
+     left: 620px;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     font-weight: bold;
+    }
+    p.loc
+    {
+     color: rgb(208, 204, 204);
+     position: absolute;
+     width: 100px;
+     top: 530px;
+     left: 660px;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     font-weight: bold;
+    }
+    h3.place2
+    {
+      width: 300px;
+     color: white;
+     position: absolute;
+     top: 500px;
+     left: 920px;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     font-weight: bold;
+    }
+    p.loc2
+    {
+      width: 100px;
+     color: rgb(208, 204, 204);
+     position: absolute;
+     top: 530px;
+     left: 980px;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     font-weight: bold;
+    }
+    h3.place3
+    {
+      width: 300px;
+     color: white;
+     position: absolute;
+     top: 500px;
+     left: 1280px;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     font-weight: bold;
+    }
+    p.loc3
+    {
+      width: 100px;
+     color: rgb(208, 204, 204);
+     position: absolute;
+     top: 530px;
+     left: 1320px;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     font-weight: bold;
+    }
+    div.bottom
+    {
+    width: 1535px;
+    height: 240px;
+    background-color: #6b433f;
+    border-color: beige;
+    border-style: solid;
+    border-width: 2px;
+    position: absolute;
+    top: 745px;
+    right: -2px;
+    z-index: 9;
+    }
+    div.bg
+    {
+    width: 1536px;
+    height: 200px;
+    background-color: #50473dd1;
+    border-color: beige;
+    border-style: solid;
+    border-width: 2px;
+    position: absolute;
+    top: 770px;
+    right: 0px;
+    z-index: 9;
+    }
+    h1.h1 
+    {
+    position: absolute;
+    top: 10px;
+    left: 530px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: azure;
+    }
+    h1.h2 
+    {
+    position: absolute;
+    top: 10px;
+    left: 860px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: azure;
+    }
+    h1.h3 
+    {
+    position: absolute;
+    top: 10px;
+    left: 1260px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: azure;
+    }
+    p.font
+    {
+    position: absolute;
+    top: 70px;
+    left: 530px;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: azure;
+    }
+    p.font2
+    {
+    position: absolute;
+    top: 70px;
+    left: 860px;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: azure;
+    }
+    p.font3
+    {
+    position: absolute;
+    top: 70px;
+    left: 1260px;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: azure;
+    }
+    img.kope
+    {
+      width: 250px;
+      height: 245px;
+    position: absolute;
+    top: 795px;
+    left: 90px;
+    z-index: 100;
+    }

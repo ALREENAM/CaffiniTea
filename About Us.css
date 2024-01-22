@@ -1,0 +1,224 @@
+body
+{
+ background-color: #9c7a7adf;
+}
+
+div.navbar {
+    width:100%;
+    height:11%;
+    background-color: #29201bdf;
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 0;
+    border-bottom: solid 5px #EFD3B9;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2d252100;
+    position: absolute;
+    float: none;
+    left: 260px;
+    top: 13px;
+    z-index: 1;
+    
+    display: flex;
+  }
+  
+  li {
+    float: none;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    opacity: 90%;
+    margin: 0px 50px 0px 50px;
+  }
+  
+  li a:hover {
+    opacity: 50%;
+    background-color: #EFD3B9;
+    color:#1B1212;
+    border-radius: 20%;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+  }
+
+  li.Menu:hover .dropdown-content {
+    display: block;    
+  }
+
+  .dropdown-content {
+    display: none;
+    background-color: #443b37;
+    width: 150px;
+    top: 25px;
+    padding-top: 0px;
+    margin-left: 20px;
+    box-shadow: 5px 5px 5px #1B1212;
+    
+  }
+
+  .dropdown-content a {
+    font-size: 15px;
+    width: 90px;
+    margin-left: 15px;
+  }
+
+  div.bottom
+  {
+  width: 1535px;
+  height: 240px;
+  background-color: #6b433f;
+  border-color: beige;
+  border-style: solid;
+  border-width: 2px;
+  position: absolute;
+  top: 705px;
+  right: -2px;
+  z-index: 9;
+  }
+  div.bg
+  {
+  width: 1536px;
+  height: 200px;
+  background-color: #50473dd1;
+  border-color: beige;
+  border-style: solid;
+  border-width: 2px;
+  position: absolute;
+  top: 725px;
+  right: 0px;
+  z-index: 9;
+  }
+  h1.h1 
+  {
+  position: absolute;
+  top: 10px;
+  left: 530px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: azure;
+  }
+  h1.h2 
+  {
+  position: absolute;
+  top: 10px;
+  left: 860px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: azure;
+  }
+  h1.h3 
+  {
+  position: absolute;
+  top: 10px;
+  left: 1260px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: azure;
+  }
+  p.font
+  {
+  position: absolute;
+  top: 70px;
+  left: 530px;
+  font-size: 20px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: azure;
+  }
+  p.font2
+  {
+  position: absolute;
+  top: 70px;
+  left: 860px;
+  font-size: 20px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: azure;
+  }
+  p.font3
+  {
+  position: absolute;
+  top: 70px;
+  left: 1260px;
+  font-size: 20px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: azure;
+  }
+  img.kope
+  {
+    width: 250px;
+    height: 245px;
+  position: absolute;
+  top: 695px;
+  left: 90px;
+  z-index: 100;
+  }
+
+  img.aboutus
+  {
+   width: 500px;
+   position: absolute;
+   width: 550px;
+   top: 85px;
+   left: 0px;
+  }
+  img.aboutus2
+  {
+   width: 450px;
+   position: absolute;
+   width: 550px;
+   top: 85px;
+   right: 0px;
+  }
+  h1.about
+  {
+   position: absolute;
+   top: 190px;
+   left: 520px;
+   color: aliceblue;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  h4.h3s
+  {
+   position: absolute;
+   text-align: justify;
+   text-shadow: #1B1212;
+   top: 280px;
+   left: 450px;
+   color: aliceblue;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  div.opa
+  {
+   width: 1536px;
+   height: 63px;
+   position: absolute;
+   top: 200px;
+   left: 0px;
+   background-color: #483434e5;
+   z-index: -100000;
+   border-style: solid;
+   border-color: aliceblue;
+  }
+  div.opa2
+  {
+   width: 1536px;
+   height: 310px;
+   position: absolute;
+   top: 285px;
+   left: 0px;
+   background-color: #5a4646e5;
+   z-index: -100000;
+   border-style: solid;
+   border-color: rgb(191, 193, 196);
+   border-width: 2px;
+  }
